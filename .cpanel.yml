@@ -1,0 +1,5 @@
+---
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/rizr5951/public_html/
+    - /bin/cp -r /home/rizr5951/repositories/portofolio/* $DEPLOYPATH
